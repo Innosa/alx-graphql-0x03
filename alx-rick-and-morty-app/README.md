@@ -1,0 +1,1 @@
+git add README.md graphql/apolloClient.ts graphql/queries.ts pages/_app.tsx
