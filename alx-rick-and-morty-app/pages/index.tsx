@@ -1,7 +1,6 @@
 "use client";
 import ErrorBoundary from "@/components/commons/ErrorBoundary";
 import ErrorProneComponent from "@/components/commons/ErrorProneComponent";
-
 import { useQuery } from "@apollo/client/react";
 import { GET_EPISODES } from "@/graphql/queries";
 import { EpisodeProps } from "@/interfaces";

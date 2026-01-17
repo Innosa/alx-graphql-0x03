@@ -11,7 +11,6 @@ import client from '@/graphql/apolloClient';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ErrorBoundary>
-      
       <ApolloProvider client={client}>
         <ErrorProneComponent />
       <Component {...pageProps} />
