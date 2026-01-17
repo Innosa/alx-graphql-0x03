@@ -1,5 +1,4 @@
 import React from "react";
-import { Component, ErrorInfo, ReactNode } from "react";
 
 interface State {
   hasError: boolean;
